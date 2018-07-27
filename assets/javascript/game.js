@@ -55,7 +55,7 @@ document.onkeyup = function (event) {
     var userGuess = event.key;
 
     //In the case the user chooses a capital letter
-    var userGuess = userGuess.toLowerCase();
+    userGuess = userGuess.toLowerCase();
 
     //Computer's current choice
     console.log("Computer's current guess is " + computerGuess);
